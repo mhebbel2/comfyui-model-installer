@@ -46,3 +46,9 @@ and wait for your instance to show up. Then simply run:
 Note: this script assumes you have only one instance on vast ai.
 
 When the model is loaded simply open the instances view and click on "Open" button... wait until the next view opens then click on "launch application"... wait and comfyui should open.
+
+## Extending the choice of configs
+
+All configs are stored in the 'configs.yaml' file.  New configs can be added to this. 
+
+To use files where API keys are needed you have to start the template with the key. 
