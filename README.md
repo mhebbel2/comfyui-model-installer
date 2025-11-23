@@ -41,7 +41,7 @@ https://cloud.vast.ai/instances/
 
 and wait for your instance to show up. Then simply run:
 
-'''./vastai-load-gpu.sh'''
+./vastai-load-gpu.sh
 
 Note: this script assumes you have only one instance on vast ai.
 
@@ -59,4 +59,4 @@ You can of course use it to load the models locally on your PC/Laptop.
 
 Just go into the 'loader' directory and run the 'run.sh' script:
 
-'''./run.sh'''
+./run.sh
