@@ -52,3 +52,11 @@ When the model is loaded simply open the instances view and click on "Open" butt
 All configs are stored in the 'configs.yaml' file.  New configs can be added to this. 
 
 To use files where API keys are needed you have to start the template with the key. 
+
+## Using it locally without vast ai
+
+You can of course use it to load the models locally on your PC/Laptop.
+
+Just go into the 'loader' directory and run the 'run.sh' script:
+
+'''./run.sh'''
