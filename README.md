@@ -8,5 +8,10 @@ Although you probably don't need this for local single deployments, the accompan
 ## Requirements 
 
 Runs on linux (tested debian/bash).
-You need to install vastai CLI:
+
+If you want to use the remote vast ai uploading feature
+you need to install vastai CLI:
+
 https://cloud.vast.ai/cli/
+
+and get an API key and login the cli. 
