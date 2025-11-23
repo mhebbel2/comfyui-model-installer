@@ -18,7 +18,9 @@ and get an API key and login the cli.
 
 ## Using it with vast.ai
 
-Create a single machine with GPU using the vast ai console:
+First get yourself an account and credit.
+
+Then create a single machine with GPU using the vast ai console:
 
 https://cloud.vast.ai/
 
@@ -40,3 +42,7 @@ https://cloud.vast.ai/instances/
 and wait for your instance to show up. Then simply run:
 
 '''./vastai-load-gpu.sh'''
+
+Note: this script assumes you have only one instance on vast ai.
+
+When the model is loaded simply open the instances view and click on "Open" button... wait until the next view opens then click on "launch application"... wait and comfyui should open.
