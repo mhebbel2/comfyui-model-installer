@@ -18,9 +18,29 @@ and get an API key and login the cli.
 
 ## Using it with vast.ai
 
-First get yourself an account and credit.
+### Initial setup (only do once) 
 
-Then create a single machine with GPU using the vast ai console:
+Instructions are for linux and MAC OSX. This might work on windows if you know what you are doing.
+
+First get yourself an account and credit.
+Then install the CLI and get and install an API key as described here:
+
+https://cloud.vast.ai/cli/
+
+Then on your laptop/PC create an ssh public/private key pair with
+
+ssh-keygen
+
+(use all the suggested defaults). Get the contents of the public key with:
+
+cat $HOME/.ssh/*.pub 
+
+and copy it into the vastai console as a new ssh key
+
+
+### For every time you start a session
+
+Create a single machine with GPU using the vast ai console:
 
 https://cloud.vast.ai/
 
